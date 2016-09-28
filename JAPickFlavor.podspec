@@ -1,25 +1,25 @@
 Pod::Spec.new do |s|
 
-  s.platform = :ios
-  s.ios.deployment_target = '8.0'
-  s.name         = "JAPickFlavor"
-  s.version      = "0.0.1"
-  s.summary = "RWPickFlavor lets a user select an ice cream flavor."
-  s.requires_arc = true
+s.platform = :ios
+s.ios.deployment_target = '8.0'
+s.name         = "JAPickFlavor"
+s.version      = "0.0.1"
+s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+s.requires_arc = true
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+s.license      = "MIT (example)"
 
-  s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
+s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
 
-  s.homepage = "https://github.com/juanpaOktana/JAPickFlavor"
+s.homepage = "https://github.com/juanpaOktana/JAPickFlavor"
 
-  s.source       = { :git => "https://github.com/juanpaOktana/JAPickFlavor.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/juanpaOktana/JAPickFlavor.git", :tag => "#{s.version}" }
 
-  s.framework = "UIKit"
-  s.dependency 'Alamofire', '~> 2.0'
-  s.dependency 'MBProgressHUD', '~> 0.9.0'
+s.framework = "UIKit"
+s.dependency 'Alamofire', '~> 2.0'
+s.dependency 'MBProgressHUD', '~> 0.9.0'
 
-  s.source_files = "JAPickFlavor/**/*.{swift}"
+s.source_files = "JAPickFlavor/**/*.{swift}"
 
-  s.resources = "JAPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "JAPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
