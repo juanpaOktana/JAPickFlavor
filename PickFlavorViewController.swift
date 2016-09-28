@@ -74,7 +74,6 @@ public class PickFlavorViewController: UIViewController, UICollectionViewDelegat
           return
         }
         
-        // 4
         strongSelf.flavors = strongSelf.flavorFactory.flavorsFromDictionaryArray(flavorsArray)
         strongSelf.collectionView.reloadData()
         strongSelf.selectFirstFlavor()
