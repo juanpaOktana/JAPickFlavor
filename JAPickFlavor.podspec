@@ -16,7 +16,6 @@ s.homepage = "https://github.com/juanpaOktana/JAPickFlavor"
 s.source       = { :git => "https://github.com/juanpaOktana/JAPickFlavor.git", :tag => "#{s.version}" }
 
 s.framework = "UIKit"
-s.dependency 'MBProgressHUD', '~> 1.0.0'
 s.dependency 'Alamofire', '~> 2.0'
 
 s.source_files = "*.{swift}"
