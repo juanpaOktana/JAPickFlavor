@@ -4,10 +4,10 @@ s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name         = "JAPickFlavor"
 s.version      = "0.0.1"
-s.summary = "RWPickFlavor lets a user select an ice cream flavor."
+s.summary = "JAPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
-s.license      = "MIT (example)"
+s.license      = 'MIT (example)'
 
 s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
 
