@@ -3,5 +3,5 @@ use_frameworks!
 
 target 'JAPickFlavor' do
     pod 'Alamofire', '~> 2.0'
-    pod 'MBProgressHUD', '~> 0.9.0'
+    pod 'MBProgressHUD', '~> 1.0.0'
 end

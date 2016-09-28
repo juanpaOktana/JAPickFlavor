@@ -7,7 +7,7 @@ s.version      = "0.0.1"
 s.summary = "JAPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
-s.license      = 'MIT (example)'
+ s.license = { :type => "MIT"}
 
 s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
 
@@ -16,10 +16,10 @@ s.homepage = "https://github.com/juanpaOktana/JAPickFlavor"
 s.source       = { :git => "https://github.com/juanpaOktana/JAPickFlavor.git", :tag => "#{s.version}" }
 
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 2.0'
 s.dependency 'MBProgressHUD', '~> 0.9.0'
+s.dependency 'Alamofire', '~> 2.0'
 
-s.source_files = "JAPickFlavor/**/*.{swift}"
+s.source_files = "*.{swift}"
 
-s.resources = "JAPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "JAPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}","*.{png,jpeg,jpg,storyboard,xib}"
 end
