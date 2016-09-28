@@ -7,9 +7,6 @@ Pod::Spec.new do |s|
   s.summary = "RWPickFlavor lets a user select an ice cream flavor."
   s.requires_arc = true
 
-  s.homepage     = "http://EXAMPLE/JAPickFlavor"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
